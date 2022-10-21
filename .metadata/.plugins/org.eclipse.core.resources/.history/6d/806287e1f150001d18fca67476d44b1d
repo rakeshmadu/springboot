@@ -1,0 +1,19 @@
+package com.example.demo;
+
+public class Student {
+	Mathcheat mathCheat;
+	 
+	
+	 
+	public void setMathCheat(Mathcheat mathCheat) {
+		this.mathCheat = mathCheat;
+	}
+
+
+
+	public void cheating()
+	{
+		mathCheat.mathCheat();
+	}
+	
+}

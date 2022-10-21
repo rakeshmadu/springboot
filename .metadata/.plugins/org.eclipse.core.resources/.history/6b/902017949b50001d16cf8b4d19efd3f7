@@ -1,0 +1,13 @@
+package com.example.demo;
+
+public class Exam {
+	public static void main(String[] args) {
+		
+		Student student = new Student();
+		student.studentName = "Rakesh M";
+		
+		student.displayStudentInfo();
+		
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;spring-value-annotation/src/main/resources/student.properties&apos; to &apos;student-info.properties&apos;" description="Rename resource &apos;student.properties&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/student.properties" name="student-info.properties" stamp="1666376110356" updateReferences="true"/>
+</session>

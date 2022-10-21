@@ -1,0 +1,10 @@
+package com.stsp.ioc;
+import org.springframework.context.ApplicationContext;
+
+public class Mobile {
+	public static void main(String[] args) {
+		Applicatiioncontext
+		   
+	}
+
+}

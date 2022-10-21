@@ -1,0 +1,30 @@
+package com.spring.aw;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class Human {
+	private Heart heart;
+	public Human() {
+		// TODO Auto-generated constructor stub
+	}
+
+	
+	public Human(Heart heart) {
+		this.heart = heart;
+		System.out.println("human constructor getting called which as heart as argument");
+	}
+
+	public void setHeart(Heart heart) {
+		this.heart = heart;
+		System.out.println("setter method called");
+	}
+
+	public void startPumping() {
+		if (heart != null) {
+			heart.pump();
+		} else {
+			System.out.println("heart not pumping");
+		}
+	}
+
+}
