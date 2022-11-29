@@ -22,3 +22,9 @@ spring.jpa.properties.hibernate.dialect =org.hibernate.dialect.MySQL8Dialect
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+		
+		
+		
+		optional feature of java, jpa repository
+		
+	to kill 8080:	kill -9 $(lsof -t -i:8080)
